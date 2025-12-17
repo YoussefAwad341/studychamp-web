@@ -1,0 +1,18 @@
+:root {
+  --primary-bg: rgba(15, 23, 42, 0.8);
+  --primary-border: rgba(255, 255, 255, 0.05);
+  --primary-yellow: #eab308;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--primary-bg);
+  color: white;
+  transition: 0.5s;
+}
+
+.glass {
+  background: var(--primary-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--primary-border);
+}
